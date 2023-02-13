@@ -1,6 +1,6 @@
 # Jakub Głuch - Personal Homepage in React.js
 
-![Personal Homepage](public/gif/Animation.gif)
+![Personal Homepage]()
 
 
 ## Demo https://allmosthumann.github.io/personal-homepage/
