@@ -9,6 +9,7 @@ export const theme = {
         mineShaftLighter: "#313131",
         blumine: "#1F5189",
         dodgerBlue: "#2188FF",
+        blue: "#2517EB",
         shipCove: "#6D93BE",
         anakiwa: "#8CC2FF",
         tropicalBlue: "#CDE0F7",
