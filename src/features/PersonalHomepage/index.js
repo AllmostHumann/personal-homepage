@@ -1,5 +1,6 @@
 import { Container } from "./Container/styled";
 import Header from "./Header";
+import Portfolio from "./Portfolio";
 import Tile from "./Tile";
 import { skills } from "./Tile/skills";
 import { skillsToLearn } from "./Tile/skillsToLearn";
@@ -16,6 +17,7 @@ const PersonalHomepage = () => {
                 title="What I want to learn next 🚀"
                 skills={skillsToLearn}
             />
+            <Portfolio/>
         </Container>
     );
 };
