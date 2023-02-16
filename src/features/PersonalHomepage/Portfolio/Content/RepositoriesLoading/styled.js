@@ -13,7 +13,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 1.4;
 letter-spacing: 0.05em;
-color: ${({theme}) => theme.color.mineShaft};
+color: ${({ theme }) => theme.color.mineShaft};
 `;
 
 export const Spinner = styled.div`

@@ -18,7 +18,7 @@ font-size: 30px;
 line-height: 36px;
 letter-spacing: 0.05em;
 margin: 13px 0 8px 0;
-color: ${({theme}) => theme.color.mineShaft};
+color: ${({ theme }) => theme.color.mineShaft};
 `;
 
 export const Text = styled.p`
@@ -27,5 +27,5 @@ font-size: 20px;
 line-height: 28px;
 letter-spacing: 0.05em;
 margin: 0;
-color: ${({theme}) => theme.color.mineShaft};
+color: ${({ theme }) => theme.color.mineShaft};
 `;

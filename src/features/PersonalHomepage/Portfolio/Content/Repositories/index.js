@@ -1,6 +1,6 @@
 import { Wrapper, Container, Title, Description, LinkContainer, Text, Link } from "./styled";
 
-const Repositories = ({ repositories }) => {
+export const Repositories = ({ repositories }) => {
   return (
     <Wrapper>
       {repositories.map(({ id, name, description, html_url, homepage }) => (<Container key={id}>
@@ -19,5 +19,3 @@ const Repositories = ({ repositories }) => {
     </Wrapper>
   );
 };
-
-export default Repositories;

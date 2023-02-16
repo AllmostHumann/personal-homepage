@@ -24,7 +24,7 @@ font-size: 24px;
 line-height: 29px;
 letter-spacing: 0.05em;
 margin-top: 0;
-color: ${({theme}) => theme.color.blue};
+color: ${({ theme }) => theme.color.blue};
 `;
 
 export const Description = styled.p`
@@ -34,7 +34,7 @@ line-height: 1.4;
 letter-spacing: 0.05em;
 margin: 24px 0;
 height: 75px;
-color: ${({theme}) => theme.color.scienceBlue};
+color: ${({ theme }) => theme.color.scienceBlue};
 `;
 
 export const LinkContainer = styled.div`
@@ -48,7 +48,7 @@ font-size: 18px;
 width: 60px;
 line-height: 1.4;
 letter-spacing: 0.05em;
-color: ${({theme}) => theme.color.slateGray};
+color: ${({ theme }) => theme.color.slateGray};
 `;
 
 export const Link = styled.p`
@@ -58,6 +58,6 @@ line-height: 1.4;
 display: flex;
 align-items: center;
 letter-spacing: 0.05em;
-color: ${({theme}) => theme.color.blue};
+color: ${({ theme }) => theme.color.blue};
 `;
 
