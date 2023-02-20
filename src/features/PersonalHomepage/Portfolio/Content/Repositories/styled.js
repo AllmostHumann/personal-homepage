@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.ul`
 padding: 0;
 display: grid;
-grid-template-columns: 1fr 2fr;
+grid-template-columns: 1fr 1fr;
 grid-gap: 32px;
 background: ${({ theme }) => theme.color.white};
 `;
@@ -48,12 +48,14 @@ font-size: 18px;
 width: 60px;
 line-height: 1.4;
 letter-spacing: 0.05em;
+min-width: 65px;
 color: ${({ theme }) => theme.color.slateGray};
 `;
 
 export const Link = styled.p`
 font-weight: 400;
 font-size: 18px;
+margin: 0;
 line-height: 1.4;
 display: flex;
 align-items: center;
