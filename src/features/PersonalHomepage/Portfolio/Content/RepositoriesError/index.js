@@ -2,7 +2,7 @@ import { WrapperError, ErrorIcon, ErrorHeader, ErrorInfo } from "./styled";
 import { ReactComponent as Warring } from "./icons/warring.svg"
 import { ButtonLink } from "../../../Header/ButtonLink";
 
-export const RepoError = () => {
+export const RepositoriesError = () => {
     return (
         <WrapperError>
             <ErrorIcon>

@@ -17,7 +17,7 @@ const PersonalHomepage = () => {
                 title="What I want to learn next 🚀"
                 skills={skillsToLearn}
             />
-            <Portfolio/>
+            <Portfolio />
         </Container>
     );
 };
