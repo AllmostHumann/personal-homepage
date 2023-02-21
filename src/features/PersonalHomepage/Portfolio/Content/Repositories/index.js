@@ -1,4 +1,4 @@
-import { Wrapper, Container, Title, Description, LinkContainer, Text, Link } from "./styled";
+import { Wrapper, Container, Title, Description, LinkContainer, Text, StyledLink } from "./styled";
 
 export const Repositories = ({ repositories }) => {
 
@@ -10,11 +10,11 @@ export const Repositories = ({ repositories }) => {
           <Description>{description}</Description>
           <LinkContainer>
             <Text>Demo:</Text>
-            <Link target="_blank" href={homepage}>Visit page</Link>
+            <StyledLink target="_blank" rel="noreferrer" href={homepage}>Visit page</StyledLink>
           </LinkContainer>
           <LinkContainer>
             <Text>Code:</Text>
-            <Link target="_blank" href={html_url}>Browse repository</Link>
+            <StyledLink target="_blank" rel="noreferrer" href={html_url}>Browse repository</StyledLink>
           </LinkContainer>
         </Container>
       ))};

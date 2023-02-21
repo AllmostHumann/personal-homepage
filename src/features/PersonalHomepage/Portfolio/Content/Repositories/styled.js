@@ -52,7 +52,7 @@ min-width: 65px;
 color: ${({ theme }) => theme.color.slateGray};
 `;
 
-export const Link = styled.p`
+export const StyledLink = styled.a`
 font-weight: 400;
 font-size: 18px;
 margin: 0;
