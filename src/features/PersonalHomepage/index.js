@@ -1,4 +1,5 @@
 import { Container } from "./Container/styled";
+import Footer from "./Footer";
 import Header from "./Header";
 import Portfolio from "./Portfolio";
 import Tile from "./Tile";
@@ -18,6 +19,7 @@ const PersonalHomepage = () => {
                 skills={skillsToLearn}
             />
             <Portfolio />
+            <Footer />
         </Container>
     );
 };
