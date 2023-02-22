@@ -1,3 +1,4 @@
+import { ThemeSwitch } from "../../common/ThemeSwitch";
 import { Container } from "./Container/styled";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -9,6 +10,7 @@ import { skillsToLearn } from "./Tile/skillsToLearn";
 const PersonalHomepage = () => {
     return (
         <Container>
+            <ThemeSwitch />
             <Header />
             <Tile
                 title="My skillset includes 🛠️"
