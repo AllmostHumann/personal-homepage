@@ -2,7 +2,7 @@ import { call, delay, put, takeLatest } from "redux-saga/effects";
 import { getRepositories } from "./getRepositories";
 import { fetchRepositories, fetchRepositoriesError, fetchRepositoriesSuccess } from "./personalHomepageSlice";
 
-const loadingDelay = 2000;
+const loadingDelay = 1500;
 
 function* fetchRepositoriesHandler({ payload: username }) {
     try {
