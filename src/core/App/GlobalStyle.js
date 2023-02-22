@@ -15,7 +15,12 @@ body {
         word-break: break-word;
         padding: 115px 40px 110px 40px;
         transition: background 0.3s;
-        background-color: ${({ theme }) => theme.color.whiteLilac};
+        background-color: ${({ theme }) => theme.colors.site.background};
+        color: ${({ theme }) => theme.colors.site.text};
         letter-spacing: 0.05em;
+
+          @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+            padding: 33px 13px 30px 13px;
+          }
 }
 `;
