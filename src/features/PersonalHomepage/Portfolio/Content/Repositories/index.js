@@ -17,7 +17,7 @@ export const Repositories = ({ repositories }) => {
             <StyledLink target="_blank" rel="noreferrer" href={html_url}>Browse repository</StyledLink>
           </LinkContainer>
         </Container>
-      ))};
+      ))}
     </Wrapper>
   );
 };
