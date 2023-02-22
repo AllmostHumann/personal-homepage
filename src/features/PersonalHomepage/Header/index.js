@@ -1,6 +1,6 @@
 import { Wrapper, Image, Content, SubHeader, Name, Info, Message } from "./styled";
 import photo from "../Header/images/me.png";
-import { ButtonLink } from "./ButtonLink";
+import { ButtonLink } from "../ButtonLink"
 import { email } from "../email";
 
 const Header = () => (
