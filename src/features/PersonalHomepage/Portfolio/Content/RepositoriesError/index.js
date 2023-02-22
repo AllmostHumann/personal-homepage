@@ -1,6 +1,6 @@
 import { WrapperError, ErrorIcon, ErrorHeader, ErrorInfo } from "./styled";
-import { ReactComponent as Warring } from "./icons/warring.svg"
-import { ButtonLink } from "../../../Header/ButtonLink";
+import { ReactComponent as Warring } from "./icons/warring.svg";
+import { ButtonLink } from "../../../ButtonLink";
 
 export const RepositoriesError = () => {
     return (
@@ -10,7 +10,7 @@ export const RepositoriesError = () => {
             </ErrorIcon>
             <ErrorHeader>Ooops! Something went wrong...</ErrorHeader>
             <ErrorInfo>Sorry, failed to load Github projects. <br /> You can check them directly on Github.</ErrorInfo>
-            <ButtonLink target="_blank" href={"https://api.github.com/users/AllmostHumann"}>Go to Github</ButtonLink>
+            <ButtonLink target="_blank" href={"https://github.com/AllmostHumann"}>Go to Github</ButtonLink>
         </WrapperError>
     );
 };
