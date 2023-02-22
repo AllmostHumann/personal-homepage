@@ -23,11 +23,11 @@ const Portfolio = () => {
                 </Icon>
                 <Header>Portfolio</Header>
                 <Text>My recent projects</Text>
-                </StyledArticle>
-                <Content
-                    status={repositoriesStatus}
-                    repositories={repositories}
-                />
+            </StyledArticle>
+            <Content
+                status={repositoriesStatus}
+                repositories={repositories}
+            />
         </>
     );
 };
