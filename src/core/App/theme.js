@@ -1,5 +1,4 @@
 export const colorNames = {
-    color: {
         white: "#FFFFFF",
         whiteLilac: "#FBFBFE",
         slateGray: "#6E7E91",
@@ -9,7 +8,6 @@ export const colorNames = {
         mineShaftLighter: "#313131",
         blumine: "#1F5189",
         dodgerBlue: "#2188FF",
-        blue: "#2517EB",
         shipCove: "#6D93BE",
         anakiwa: "#8CC2FF",
         tropicalBlue: "#CDE0F7",
@@ -17,8 +15,8 @@ export const colorNames = {
         mercury: "#E5E5E5",
         doveGray: "#6D6D6D",
         tundora: "#414141",
-    },
 };
+
 
 const common = {
     breakpoints: {
