@@ -1,11 +1,11 @@
 import { ThemeSwitch } from "../../common/ThemeSwitch";
 import { Container } from "./Container/styled";
+import { skills } from "./Tile/skills";
+import { skillsToLearn } from "./Tile/skillsToLearn";
 import Footer from "./Footer";
 import Header from "./Header";
 import Portfolio from "./Portfolio";
 import Tile from "./Tile";
-import { skills } from "./Tile/skills";
-import { skillsToLearn } from "./Tile/skillsToLearn";
 
 const PersonalHomepage = () => {
     return (
