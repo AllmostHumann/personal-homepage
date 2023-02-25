@@ -20,7 +20,7 @@ export const colorNames = {
 
 const common = {
     breakpoints: {
-        mobilemax: 767,
+        mobileMax: 767,
         tabletVerticalMax: 991,
         tabletHorizontalMax: 1199,
     },
