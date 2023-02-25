@@ -5,4 +5,5 @@ export const skillsToLearn = [
     "Node.js",
     "UI/UX Design",
     "Rest API",
+    "Wordpress",
 ];

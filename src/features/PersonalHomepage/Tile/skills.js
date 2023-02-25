@@ -21,4 +21,5 @@ export const skills = [
     "Trello",
     "Teamwork",
     "Scrum",
+    "Figma",
 ];
