@@ -1,13 +1,15 @@
 # Jakub Głuch - Personal Homepage in React.js
 
-![Personal Homepage]()
+![Personal Homepage](public/gif/Animation.gif)
 
 
 ## Demo https://allmosthumann.github.io/personal-homepage/
 
 ## Introduction
  
-TBA
+Fully responsive personal homepage with all the necessary informations about me. 
+
+Please check it to get know me better :).
 
 Ps: I'm strongly open for comments and suggestion!
 
