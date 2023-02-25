@@ -14,11 +14,6 @@ Please check it to get know me better :).
 Ps: I'm strongly open for comments and suggestion!
 
 Cheers!
-
-## Description 
-
-My personal CV
-
 ## Technologies
 - BEM
 - ES6
