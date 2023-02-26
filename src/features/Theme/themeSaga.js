@@ -3,10 +3,10 @@ import { toggleTheme, selectIsDarkTheme } from "./themeSlice";
 import { saveIsDarkThemeInLocalStorage } from "./isDarkThemeLocalStorage";
 
 function* saveIsDarkThemeLocalStorageHandler() {
-    const isDarkTheme = yield select(selectIsDarkTheme);
-    yield call(saveIsDarkThemeInLocalStorage, isDarkTheme);
-};
+  const isDarkTheme = yield select(selectIsDarkTheme);
+  yield call(saveIsDarkThemeInLocalStorage, isDarkTheme);
+}
 
 export function* themeSaga() {
-    yield takeLatest(toggleTheme.type, saveIsDarkThemeLocalStorageHandler);
-};
+  yield takeLatest(toggleTheme.type, saveIsDarkThemeLocalStorageHandler);
+}

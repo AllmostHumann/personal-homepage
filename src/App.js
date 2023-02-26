@@ -1,10 +1,10 @@
-import { GlobalStyle } from "./GlobalStyle";
+import { GlobalStyle } from "./features/Theme/GlobalStyle";
 import { Normalize } from "styled-normalize";
 import { ThemeProvider } from "styled-components";
-import { themeLight, themeDark } from "./theme";
+import { themeLight, themeDark } from "./features/Theme/theme";
 import { useSelector } from "react-redux";
-import { selectIsDarkTheme } from "../../common/themeSlice";
-import PersonalHomepage from "../../features/PersonalHomepage";
+import { selectIsDarkTheme } from "./features/Theme/themeSlice";
+import PersonalHomepage from "./features/PersonalHomepage";
 
 function App() {
   const isDarkTheme = useSelector(selectIsDarkTheme);
