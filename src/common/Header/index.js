@@ -18,8 +18,9 @@ const Header = () => (
       <SubHeader>This is</SubHeader>
       <Name>Jakub Głuch</Name>
       <Info>
-        👨🏻‍💻💻 I'm a passionate Frontend Developer in love with React, currently
-        looking for new job opportunities.
+        👨🏻‍💻💻 I'm a passionate Frontend Developer in love with React. Right now
+        I'm focused at learning the TypeScript and Next.js, currently looking
+        for new job opportunities.
       </Info>
       <ButtonLink href={`mailto:${EMAIL}`}>
         <Message />
