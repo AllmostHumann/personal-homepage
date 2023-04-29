@@ -1,9 +1,8 @@
 export const skillsToLearn = [
   "TypeScript",
+  "TankStack Query",
   "Next.js",
-  "tRPC",
+  "Chakra UI",
+  "Material UI",
   "Node.js",
-  "UI/UX Design",
-  "Rest API",
-  "Wordpress",
 ];
