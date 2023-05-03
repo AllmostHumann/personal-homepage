@@ -4,5 +4,5 @@ export const skillsToLearn = [
   "Next.js",
   "Chakra UI",
   "Material UI",
-  "Node.js",
+  "Tailwind CSS",
 ];
