@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ButtonLink = styled.a`
   padding: 12px 16px;
   gap: 16px;
   position: relative;
   width: fit-content;
-  height: 49px;
+  height: 40px;
   border: 1px solid ${({ theme }) => theme.colors.buttonLink.border};
   border-radius: 4px;
   display: flex;
@@ -21,7 +21,10 @@ export const ButtonLink = styled.a`
   color: ${({ theme }) => theme.colors.buttonLink.text};
 
   &:hover {
-    box-shadow: 2px -2px 0px #8cc2ff, -2px 2px 0px #8cc2ff, 2px 2px 0px #8cc2ff,
+    box-shadow:
+      2px -2px 0px #8cc2ff,
+      -2px 2px 0px #8cc2ff,
+      2px 2px 0px #8cc2ff,
       -2px -2px 0px #8cc2ff;
   }
 
