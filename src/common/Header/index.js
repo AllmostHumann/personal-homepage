@@ -55,7 +55,7 @@ const Header = () => {
                   <ListItem>
                     <DownloadButton
                       download='CV Polish'
-                      href='/cv/Jakub_Głuch_CV_PL.pdf'
+                      href='https://github.com/AllmostHumann/personal-homepage/raw/main/public/cv/Jakub_G%C5%82uch_CV_PL.pdf'
                     >
                       <PolishFlag />
                       CV Polish
@@ -64,7 +64,7 @@ const Header = () => {
                   <ListItem>
                     <DownloadButton
                       download='CV English'
-                      href='/cv/Jakub_Głuch_CV_ENG.pdf'
+                      href='https://github.com/AllmostHumann/personal-homepage/raw/main/public/cv/Jakub_G%C5%82uch_CV_ENG.pdf'
                     >
                       <EnglishFlag />
                       CV English
