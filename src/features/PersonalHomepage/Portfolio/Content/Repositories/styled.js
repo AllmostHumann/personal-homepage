@@ -15,7 +15,7 @@ export const Wrapper = styled.ul`
 
 export const Container = styled.li`
   width: 100%;
-  height: 322px;
+  height: 350px;
   padding: 35px;
   color: transparent;
   border: 6px solid rgba(209, 213, 218, 0.3);
