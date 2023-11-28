@@ -64,7 +64,7 @@ const Header = () => {
                   <ListItem>
                     <DownloadButton
                       download='CV English'
-                      href='https://github.com/AllmostHumann/personal-homepage/raw/main/public/cv/Jakub_G%C5%82uch_CV_ENG.pdf'
+                      href='https://github.com/AllmostHumann/personal-homepage/raw/main/public/cv/Jakub_Gluch_CV_ENG.pdf'
                     >
                       <EnglishFlag />
                       CV English
