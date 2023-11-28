@@ -6,12 +6,14 @@ import {
   LinkContainer,
   Text,
   StyledLink,
+  Tags,
+  TagsContainer,
 } from "./styled";
 
 export const Repositories = ({ repositories }) => {
   return (
     <Wrapper>
-      {repositories.map(({ id, name, description, html_url, homepage }) => (
+      {repositories.map(({ id, name, description, html_url, homepage, topics }) => (
         <Container key={id}>
           <Title>{name}</Title>
           <Description>{description}</Description>
@@ -27,6 +29,12 @@ export const Repositories = ({ repositories }) => {
               Browse repository
             </StyledLink>
           </LinkContainer>
+          <TagsContainer>
+            <Text>Tags:</Text>
+              {topics.map((topic)=> (
+              <Tags>{topic}</Tags>
+              ))}
+          </TagsContainer>
         </Container>
       ))}
     </Wrapper>
