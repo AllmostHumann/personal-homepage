@@ -13,7 +13,7 @@ const PersonalHomepage = () => {
       <ThemeSwitch />
       <Header />
       <Tile title="My skillset includes 🛠️" skills={skills} />
-      <Tile title="What I want to learn next 🚀" skills={skillsToLearn} />
+      <Tile title="Currently focusing on 🚀" skills={skillsToLearn} />
       <Portfolio />
       <Footer />
     </Container>

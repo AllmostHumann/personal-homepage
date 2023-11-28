@@ -38,7 +38,7 @@ const Header = () => {
         <Name>Jakub Głuch</Name>
         <Info>
           👨🏻‍💻💻 I'm a passionate Frontend Developer in love with React. Right now
-          I'm focused at learning the TypeScript and Next.js, currently looking
+          I'm focused at learning the TypeScript and Node.js, currently looking
           for new job opportunities.
         </Info>
         <ButtonWrapper>

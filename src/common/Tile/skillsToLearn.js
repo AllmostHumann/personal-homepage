@@ -1,8 +1,7 @@
 export const skillsToLearn = [
   "TypeScript",
-  "TankStack Query",
-  "Next.js",
-  "Chakra UI",
-  "Material UI",
-  "Tailwind CSS",
+  "Node.js",
+  "Express.js",
+  "MongoDB & Mongoose",
+  "Zustand",
 ];
