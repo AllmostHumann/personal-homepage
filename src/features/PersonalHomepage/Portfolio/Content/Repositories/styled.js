@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.ul`
   padding: 0;
@@ -7,7 +7,8 @@ export const Wrapper = styled.ul`
   grid-gap: 32px;
   background: ${({ theme }) => theme.colors.boxBackground};
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+  @media (max-width: ${({ theme }) =>
+      theme.breakpoints.tabletHorizontalMax}px) {
     grid-template-columns: 1fr;
     justify-content: center;
   }
@@ -19,7 +20,8 @@ export const Container = styled.li`
   padding: 35px;
   color: transparent;
   border: 6px solid rgba(209, 213, 218, 0.3);
-  box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
+  box-shadow:
+    0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
 
@@ -59,10 +61,6 @@ export const LinkContainer = styled.div`
   gap: 5px
 `;
 
-export const TagsContainer = styled.div`
-  margin-bottom: 8px;
-`;
-
 export const Text = styled.span`
   font-weight: 400;
   font-size: clamp(14px, 5vw, 18px);
@@ -70,6 +68,12 @@ export const Text = styled.span`
   letter-spacing: 0.05em;
   min-width: 65px;
   color: ${({ theme }) => theme.colors.site.text};
+`;
+
+export const TagsContainer = styled.div`
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: 4fr;
 `;
 
 export const Tags = styled.span`
