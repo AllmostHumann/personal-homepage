@@ -1,12 +1,14 @@
-import styled from "styled-components";
-import { ReactComponent as DotItem } from "./icons/dot.svg";
+import styled from 'styled-components';
+import { ReactComponent as DotItem } from './icons/dot.svg';
 
 export const StyledTile = styled.article`
   margin-bottom: 72px;
   padding: 32px 33px 32px 32px;
   height: fit-content;
+  border-radius: 10px;
   background: ${({ theme }) => theme.colors.boxBackground};
-  box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
+  box-shadow:
+    0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
@@ -45,7 +47,8 @@ export const StyledList = styled.ul`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 8px 95px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+  @media (max-width: ${({ theme }) =>
+      theme.breakpoints.tabletHorizontalMax}px) {
     grid-template-columns: 1fr 1fr;
   }
 

@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const Wrapper = styled.ul`
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-gap: 32px;
+  border-radius: 10px;
   background: ${({ theme }) => theme.colors.boxBackground};
 
   @media (max-width: ${({ theme }) =>
@@ -23,7 +24,7 @@ export const Container = styled.li`
   box-shadow:
     0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
-  border-radius: 4px;
+  border-radius: 10px;
 
   &:hover {
     border: 6px solid rgba(3, 102, 214, 0.2);
@@ -57,8 +58,15 @@ export const Description = styled.p`
 export const LinkContainer = styled.div`
   display: flex;
   margin-bottom: 8px;
-  flex-direction: column
-  gap: 5px
+  flex-direction: row;
+  gap: 5px;
+`;
+
+export const DatesContainer = styled.div`
+  display: flex;
+  margin-bottom: 8px;
+  flex-direction: column;
+  gap: 5px;
 `;
 
 export const Text = styled.span`
