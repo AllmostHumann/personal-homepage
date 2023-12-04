@@ -39,12 +39,9 @@ export const Repositories = ({ repositories }) => {
               </StyledLink>
             </LinkContainer>
             <TagsContainer>
-              <Text>
-                Tags:
-                {topics.map((topic) => (
-                  <Tags key={topic.id}>{topic}</Tags>
-                ))}
-              </Text>
+              {topics.map((topic) => (
+                <Tags key={topic.id}>{topic}</Tags>
+              ))}
             </TagsContainer>
           </Container>
         ),

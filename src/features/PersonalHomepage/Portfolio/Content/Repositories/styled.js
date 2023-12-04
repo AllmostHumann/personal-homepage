@@ -16,7 +16,7 @@ export const Wrapper = styled.ul`
 
 export const Container = styled.li`
   width: 100%;
-  height: 350px;
+  height: 100%;
   padding: 35px;
   color: transparent;
   border: 6px solid rgba(209, 213, 218, 0.3);
@@ -67,18 +67,21 @@ export const Text = styled.span`
   line-height: 1.4;
   letter-spacing: 0.05em;
   min-width: 65px;
+  display: flex;
+  align-items: center;
   color: ${({ theme }) => theme.colors.site.text};
 `;
 
 export const TagsContainer = styled.div`
+  display: flex;
   margin-bottom: 8px;
-  display: grid;
-  grid-template-columns: 4fr;
+  flex-direction: row;
+  flex-wrap: wrap;
 `;
 
 export const Tags = styled.span`
   padding: 0 10px;
-  margin: 5px;
+  margin: 2px;
   font-weight: 400;
   white-space: nowrap;
   border-radius: 2em;
